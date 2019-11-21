@@ -1,0 +1,39 @@
+body {
+  background-color: #00acee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  background-image: url(twitter.png);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-position: 50%;
+  background-size: 60%;
+}
+.tweet {
+  padding: 5px 5px;
+  border: 0px;
+  background-color: white;
+  margin: 1px;
+  border-radius: 5px;
+}
+.tweetMessage {
+  font-weight: 400;
+}
+.tweetUser {
+  font-weight: 800;
+  color: black;
+}
+.tweet.text {
+  background-color: black;
+}
+.tweet:nth-child(even) {
+  background-color: lightgray;
+}
+.handle {
+  color: #00acee;
+  border-radius: 4px;
+  margin: 4px;
+}
+#twitterpic {
+  background-image: url(twitter.png);
+}
